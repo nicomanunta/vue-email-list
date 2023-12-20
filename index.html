@@ -9,11 +9,12 @@
 </head>
 <body>
     <div id="app">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul>
-                        <li v-if="emails.length == 10" v-for="email, index in emails"> {{email}}</li>
+        <div class="container bg-color">
+            <div class="row h-100 d-flex justify-content-center align-items-center">
+                <div class="col-6 text-center">
+                    <h1 >Email Generator</h1>
+                    <ul class="list-group list-group-flush mt-4 radius">
+                        <li class="list-group-item" v-if="emails.length == 10" v-for="email, index in emails"> {{email}}</li>
                     </ul>
                 </div>
             </div>
