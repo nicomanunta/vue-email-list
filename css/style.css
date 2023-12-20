@@ -6,9 +6,9 @@
 body{
     background-color: orange;
 }
-.bg-color{
+.altezza-schermo{
     height: 100vh;
-    
+  
 }
 .radius{
     border-radius: 20px;
