@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-12">
                     <ul>
-                        <li v-for="email, index in emails"> {{email}}</li>
+                        <li v-if="emails.length == 10" v-for="email, index in emails"> {{email}}</li>
                     </ul>
                 </div>
             </div>
